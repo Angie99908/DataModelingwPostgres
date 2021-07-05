@@ -36,7 +36,7 @@ The tables are designed around the queries.  The data is currently in json files
 * sql_queries.py - this file contains the code to drop tables, create tables, and create queries.
 * test.ipnyb
 
-#### Database Schema
+#### Visual Database Schema
 
 
 ![image](image.png)
