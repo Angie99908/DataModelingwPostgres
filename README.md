@@ -1,6 +1,6 @@
 ## DataModelingwPostgres
 Includes files for building a Postgres Database based on queries
-# Introduction
+### Introduction
 
 Sparkify is a music streaming app which needs a database designed so queries can be used to easily analyze song play data.
 
@@ -9,7 +9,7 @@ Using Postgres, we are designing the database so the data can easily be pulled f
 The tables are designed around the queries.  The data is currently in json files.
 
 
-# Database Schema
+#### Database Schema
 
 *THE FACT TABLE*: The Fact Table is called 'songplays' and contains the columns songplay_id, start_time, user_id, level, song_id, artist_id, session_id, and location.  The songplay_id is the primary key for this table.  This means each row in this column is unique.  It is important that this column doesn't contain null values, so 'PRIMARY KEY NOT NULL' was used in the creation of this table.
 
@@ -23,7 +23,7 @@ The tables are designed around the queries.  The data is currently in json files
 
 
 
-# Files in repository
+#### Files in repository
 
 *The repository contains the following files*:
 
@@ -36,7 +36,7 @@ The tables are designed around the queries.  The data is currently in json files
 * sql_queries.py - this file contains the code to drop tables, create tables, and create queries.
 * test.ipnyb
 
-# Database Schema
+#### Database Schema
 
 
 ![image](image.png)
