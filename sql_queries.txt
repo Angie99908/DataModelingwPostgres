@@ -14,7 +14,7 @@ start_time int,
 user_id int,
 level varchar,
 song_id varchar,
-artist_id int,
+artist_id varchar,
 session_id int,
 location varchar,
 user_agent varchar)
@@ -31,7 +31,7 @@ level varchar)
 song_table_create = ("""
 CREATE TABLE songs(song_id varchar PRIMARY KEY NOT NULL,
 title varchar,
-artist_id int,
+artist_id varchar,
 year int,
 duration float)
 """)
